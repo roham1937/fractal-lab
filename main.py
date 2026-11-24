@@ -3,13 +3,13 @@ import turtle
 screen = turtle.Screen()
 screen.setup(800, 650)
 screen.title("Fractal Lab")
-screen.bgcolor("#101426")
+screen.bgcolor("#1a1035")
 screen.tracer(0)
 
 pen = turtle.Turtle()
 pen.hideturtle()
 pen.speed(0)
-pen.color("white")
+pen.color("#65dcff")
 pen.pensize(2)
 
 tips = []
